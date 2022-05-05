@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "archetypes",
+  "info": {
+    "singularName": "archetype",
+    "pluralName": "archetypes",
+    "displayName": "Archetype"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

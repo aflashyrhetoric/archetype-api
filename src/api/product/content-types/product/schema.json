@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "URL": {
+    "url": {
       "type": "string"
     },
-    "Photo": {
+    "photo": {
       "type": "media",
       "multiple": false,
       "required": false,
