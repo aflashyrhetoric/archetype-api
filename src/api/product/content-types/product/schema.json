@@ -28,6 +28,39 @@
         "videos",
         "audios"
       ]
+    },
+    "kits": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::kit.kit",
+      "inversedBy": "products"
+    },
+    "affiliate_link": {
+      "type": "string"
+    },
+    "media_product_reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::media-product-review.media-product-review"
+    },
+    "pros": {
+      "type": "richtext"
+    },
+    "cons": {
+      "type": "richtext"
+    },
+    "is_alone_in_product_category": {
+      "type": "boolean",
+      "default": false
+    },
+    "long_description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "sale_price": {
+      "type": "decimal"
     }
   }
 }

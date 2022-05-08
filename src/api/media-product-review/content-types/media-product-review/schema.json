@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_product_reviews",
+  "info": {
+    "singularName": "media-product-review",
+    "pluralName": "media-product-reviews",
+    "displayName": "MediaProductReview"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videoTitle": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

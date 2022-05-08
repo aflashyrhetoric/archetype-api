@@ -4,7 +4,8 @@
   "info": {
     "singularName": "kit",
     "pluralName": "kits",
-    "displayName": "Kit"
+    "displayName": "Kit",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,40 +15,54 @@
     "name": {
       "type": "string"
     },
-    "card_summary": {
-      "type": "string"
-    },
     "thumbnail_img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "stylized_name_img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "archetype": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::archetype.archetype"
     },
-    "main_description": {
-      "type": "text"
-    },
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "mappedBy": "kits"
+    },
+    "card_summary": {
+      "type": "richtext"
+    },
+    "quote": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::quote.quote"
+    },
+    "main_description": {
+      "type": "richtext",
+      "required": false
     }
   }
 }

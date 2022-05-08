@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_sections_archetypes_lists",
+  "info": {
+    "displayName": "Explore Archetypes",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

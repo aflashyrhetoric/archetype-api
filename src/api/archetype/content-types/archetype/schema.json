@@ -4,7 +4,8 @@
   "info": {
     "singularName": "archetype",
     "pluralName": "archetypes",
-    "displayName": "Archetype"
+    "displayName": "Archetype",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,16 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "main_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
