@@ -25,6 +25,11 @@
       "repeatable": false,
       "component": "sections.hero",
       "required": true
+    },
+    "explore_archetypes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.sections-archetypes-list"
     }
   }
 }

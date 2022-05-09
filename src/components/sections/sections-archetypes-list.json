@@ -12,6 +12,11 @@
     },
     "heading": {
       "type": "string"
+    },
+    "kits": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::kit.kit"
     }
   }
 }
