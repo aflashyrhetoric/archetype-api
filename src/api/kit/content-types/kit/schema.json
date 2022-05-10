@@ -57,6 +57,9 @@
     "main_description": {
       "type": "richtext",
       "required": false
+    },
+    "short_description": {
+      "type": "string"
     }
   }
 }
