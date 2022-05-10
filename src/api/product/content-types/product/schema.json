@@ -61,6 +61,17 @@
     },
     "sale_price": {
       "type": "decimal"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "the desk",
+        "i/o",
+        "tech",
+        "monitors",
+        "audio",
+        "decor"
+      ]
     }
   }
 }
