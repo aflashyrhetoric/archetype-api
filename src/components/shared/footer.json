@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "browse_by_archetype": {
+      "type": "richtext"
+    },
+    "company_copy": {
+      "type": "richtext"
+    },
+    "footer_heading": {
+      "type": "string"
+    }
+  }
+}

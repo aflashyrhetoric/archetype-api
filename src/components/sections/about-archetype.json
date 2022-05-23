@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_about_archetypes",
+  "info": {
+    "displayName": "aboutArchetype",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "page_heading": {
+      "type": "string"
+    },
+    "about_archetype_text": {
+      "type": "richtext"
+    }
+  }
+}
