@@ -35,14 +35,20 @@
       ]
     },
     "archetype_logo_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.footer"
     }
   }
 }

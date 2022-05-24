@@ -30,11 +30,6 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.sections-archetypes-list"
-    },
-    "footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.footer"
     }
   }
 }
