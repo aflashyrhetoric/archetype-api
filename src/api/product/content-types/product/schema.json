@@ -23,10 +23,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "kits": {
@@ -37,11 +34,6 @@
     },
     "affiliate_link": {
       "type": "string"
-    },
-    "media_product_reviews": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::media-product-review.media-product-review"
     },
     "pros": {
       "type": "richtext"
@@ -65,13 +57,15 @@
     "category": {
       "type": "enumeration",
       "enum": [
-        "the desk",
+        "desk",
         "i/o",
         "tech",
         "monitors",
         "audio",
         "decor",
-        "stands"
+        "stands",
+        "power",
+        "cable(s)"
       ]
     },
     "brand": {
@@ -79,6 +73,15 @@
       "relation": "manyToOne",
       "target": "api::brand.brand",
       "inversedBy": "products"
+    },
+    "photo_attribution": {
+      "type": "richtext"
+    },
+    "media_product_reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::media-product-review.media-product-review",
+      "mappedBy": "product"
     }
   }
 }
