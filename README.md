@@ -1,3 +1,12 @@
+# README
+
+This is the back-end for the archetype-web. 
+
+This is for the content section of the website, whereby builds will be made. This is not the code that will run the Configurator.
+
+---
+
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
